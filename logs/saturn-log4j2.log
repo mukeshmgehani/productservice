@@ -1,0 +1,29 @@
+2022-08-30 17:04:49,119 INFO o.s.b.StartupInfoLogger [main] Starting Application v0.0.1-SNAPSHOT using Java 20-ea on DESKTOP-BTR0CHK with PID 500 (D:\projects\MediaMarket\productservice\target\productservice-0.0.1-SNAPSHOT.jar started by harsh in D:\projects\MediaMarket\productservice)
+2022-08-30 17:04:49,137 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-08-30 17:04:50,809 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2022-08-30 17:04:50,940 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 115 ms. Found 2 JPA repository interfaces.
+2022-08-30 17:04:52,395 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2022-08-30 17:04:52,443 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2022-08-30 17:04:52,445 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2022-08-30 17:04:52,446 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.63]
+2022-08-30 17:04:52,692 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2022-08-30 17:04:52,693 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 3440 ms
+2022-08-30 17:04:52,759 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2022-08-30 17:04:53,414 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2022-08-30 17:04:53,432 INFO o.s.b.a.h.H2ConsoleAutoConfiguration [main] H2 console available at '/h2-console'. Database available at 'jdbc:h2:~/mediamarketsaturn'
+2022-08-30 17:04:54,340 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-08-30 17:04:56,108 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2022-08-30 17:04:56,152 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2022-08-30 17:04:56,156 INFO o.s.d.r.c.DeferredRepositoryInitializationListener [main] Triggering deferred initialization of Spring Data repositories…
+2022-08-30 17:04:56,368 INFO o.s.o.j.AbstractEntityManagerFactoryBean [task-1] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-08-30 17:04:56,902 INFO o.s.d.r.c.DeferredRepositoryInitializationListener [main] Spring Data repositories initialized!
+2022-08-30 17:04:56,919 INFO o.s.b.StartupInfoLogger [main] Started Application in 9.117 seconds (JVM running for 11.217)
+2022-08-30 17:05:05,599 INFO o.a.j.l.DirectJDKLog [http-nio-8080-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-08-30 17:05:05,600 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-2] Initializing Servlet 'dispatcherServlet'
+2022-08-30 17:05:05,606 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-2] Completed initialization in 4 ms
+2022-08-30 17:05:05,769 INFO c.m.c.ProductController [http-nio-8080-exec-2] ProductController.getAllProducts() has been called 
+2022-08-30 17:05:05,819 INFO c.m.s.ProductServiceImpl [http-nio-8080-exec-2] ProductServiceImpl.getAllProducts() has been called 
+2022-08-30 17:05:06,457 TRACE o.h.t.d.s.BasicBinder [http-nio-8080-exec-2] binding parameter [1] as [BIGINT] - [189]
+2022-08-30 17:05:13,577 INFO o.s.o.j.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-08-30 17:05:13,587 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2022-08-30 17:05:13,690 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
