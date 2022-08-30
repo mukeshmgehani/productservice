@@ -22,6 +22,10 @@ import com.mukesh.service.CategoryService;
 import com.mukesh.transformer.CategoryTransformer;
 import com.mukesh.transformer.ProductTransformer;
 
+/**
+ * @author Mukesh
+ *
+ */
 @Service
 @Transactional
 public class CategoryServiceImpl implements CategoryService {
@@ -81,9 +85,7 @@ public class CategoryServiceImpl implements CategoryService {
 		
 		Category category = categoryRepository.findById(id)
 				.orElseThrow(() -> new DataNotFoundException("CategoryId " + id + "not found"));
-
 		category.setName(categoryBO.getName());
-
 		return new ResponseEntity<>(categoryTransformer.entityToBo(categoryRepository.save(category)), HttpStatus.OK);
 	}
 
@@ -91,9 +93,7 @@ public class CategoryServiceImpl implements CategoryService {
 	@Override
 	public ResponseEntity<HttpStatus> deleteCategory(Long id) {
 		log.info("CategoryServiceImpl.deleteCategory() has been called with category Id =%d ".formatted(id));
-		
 		categoryRepository.deleteById(id);
-
 		return new ResponseEntity<>(HttpStatus.NO_CONTENT);
 	}
 

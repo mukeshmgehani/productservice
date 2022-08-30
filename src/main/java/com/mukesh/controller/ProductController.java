@@ -27,6 +27,10 @@ import com.mukesh.model.ProductBO;
 import com.mukesh.model.Status;
 import com.mukesh.service.ProductService;
 
+/**
+ * @author Mukesh
+ *
+ */
 @CrossOrigin(origins = "http://localhost:8080")
 @RestController
 @RequestMapping("/products")

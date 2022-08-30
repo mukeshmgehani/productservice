@@ -9,6 +9,10 @@ import com.mukesh.model.CategoryBO;
 import com.mukesh.model.ProductBO;
 import com.mukesh.model.Status;
 
+/**
+ * @author Mukesh
+ *
+ */
 public interface ProductService {
 
 	public ResponseEntity<List<ProductBO>> getAllProducts();

@@ -10,6 +10,10 @@ import com.fasterxml.jackson.annotation.JsonCreator;
 
 import com.mukesh.exception.DataNotFoundException;
 
+/**
+ * @author Mukesh
+ *
+ */
 public enum Status {
 	ONLINE("Online"), BLOCKED("Blocked"), AVAILABLE("Available");
 

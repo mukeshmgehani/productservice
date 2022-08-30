@@ -9,6 +9,10 @@ import org.springframework.stereotype.Component;
 import com.mukesh.db.entity.Category;
 import com.mukesh.model.CategoryBO;
 
+/**
+ * @author Mukesh
+ *
+ */
 @Component
 public class CategoryTransformer {
 
@@ -23,7 +27,7 @@ public class CategoryTransformer {
 	}
 
 		public Category boToEntity(CategoryBO categoryBO) {
-		log.debug("CategoryTransformer.boToEntity() has been called with customer  -- ", categoryBO);
+		log.debug("CategoryTransformer.boToEntity() has been called with categoryBO  -- ", categoryBO);
 		return mapper.map(categoryBO, Category.class);
 	}
 

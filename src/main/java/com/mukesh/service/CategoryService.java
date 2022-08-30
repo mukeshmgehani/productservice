@@ -8,6 +8,10 @@ import org.springframework.http.ResponseEntity;
 import com.mukesh.model.CategoryBO;
 import com.mukesh.model.ProductBO;
 
+/**
+ * @author Mukesh
+ *
+ */
 public interface CategoryService {
 
 	public ResponseEntity<List<CategoryBO>> getAllCategories();
